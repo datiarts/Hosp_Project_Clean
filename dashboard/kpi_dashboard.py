@@ -3,6 +3,7 @@ KPI Dashboard
 Displays key performance indicators for all departments
 """
 
+import os
 from datetime import datetime
 
 
@@ -72,8 +73,9 @@ class KPIDashboard:
     def export_report(self):
         """Export KPI report"""
         print("\n📤 جاري تصدير التقرير / Exporting report...")
-        print("✅ تم الحفظ في: reports/kpi_report_" + 
-              datetime.now().strftime('%Y%m%d') + ".xlsx")
+        filename = f"kpi_report_{datetime.now().strftime('%Y%m%d')}.xlsx"
+        filepath = os.path.join("reports", filename)
+        print(f"✅ تم الحفظ في: {filepath}")
         
     # Demo data methods
     def _get_demo_ppm(self, dept):
