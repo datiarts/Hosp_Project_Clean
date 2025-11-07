@@ -1,0 +1,61 @@
+# AMP Configuration File
+# تكوين نظام AMP
+
+# Database Configuration
+database:
+  type: sqlite
+  path: data/amp_database.db
+
+# Hospital Information
+hospital:
+  name: "مستشفى رفحاء العام / Rafha General Hospital"
+  location: "Rafha"
+  
+# FMS Standards Compliance
+compliance:
+  standard: "CBAHI-FMS"
+  version: "2024"
+  
+# Contractor Information
+contractors:
+  general_maintenance: "SAMAIA"
+  medical_maintenance: "Ministry Contractors"
+  
+# KPI Targets
+kpi_targets:
+  ppm_completion_rate: 90.0  # Minimum 90%
+  cm_response_time: 4.0       # Maximum 4 hours for critical
+  contractor_compliance: 85.0 # Minimum 85%
+
+# Report Settings
+reports:
+  output_directory: "reports/"
+  formats:
+    - "xlsx"
+    - "pdf"
+  
+# Module Settings
+modules:
+  general_maintenance:
+    enabled: true
+    ppm_categories:
+      - "المولدات / Generators"
+      - "المصاعد / Elevators"
+      - "التكييف / HVAC"
+      
+  safety_security:
+    enabled: true
+    compliance_standards:
+      - "FMS.8"
+      - "FMS.8.1"
+      - "FMS.8.4"
+      - "FMS.3"
+      
+  medical_maintenance:
+    enabled: true
+    compliance_standards:
+      - "FMS.10.2"
+      - "FMS.10.3"
+      
+  support_services:
+    enabled: true
