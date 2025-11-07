@@ -1,0 +1,135 @@
+{
+  "kpi_targets": {
+    "metadata": {
+      "fiscal_year": "2025-2026",
+      "last_updated": "2025-11-07",
+      "approved_by": "مدير إدارة المرافق والسلامة"
+    },
+    "general_maintenance": {
+      "ppm_completion_rate": {
+        "target": 95,
+        "unit": "percentage",
+        "measurement_period": "monthly",
+        "cbahi_standard": "FMS.31"
+      },
+      "critical_cm_response_time": {
+        "target": 120,
+        "unit": "minutes",
+        "measurement_period": "per_incident",
+        "cbahi_standard": "FMS.32"
+      },
+      "cm_closure_rate": {
+        "target": 90,
+        "unit": "percentage",
+        "measurement_period": "monthly",
+        "cbahi_standard": "FMS.32"
+      },
+      "contractor_performance": {
+        "target": 85,
+        "unit": "percentage",
+        "measurement_period": "monthly",
+        "cbahi_standard": "General"
+      }
+    },
+    "safety_security": {
+      "fire_system_inspection_rate": {
+        "target": 100,
+        "unit": "percentage",
+        "measurement_period": "monthly",
+        "cbahi_standard": "FMS.8.4"
+      },
+      "emergency_drills_per_month": {
+        "target": 2,
+        "unit": "count",
+        "measurement_period": "monthly",
+        "cbahi_standard": "FMS.8.1"
+      },
+      "drill_participation_rate": {
+        "target": 80,
+        "unit": "percentage",
+        "measurement_period": "per_drill",
+        "cbahi_standard": "FMS.8.1"
+      },
+      "safety_rounds_per_week": {
+        "target": 7,
+        "unit": "count",
+        "measurement_period": "weekly",
+        "cbahi_standard": "FMS.3"
+      },
+      "risk_closure_rate": {
+        "target": 90,
+        "unit": "percentage",
+        "measurement_period": "monthly",
+        "cbahi_standard": "FMS.3"
+      }
+    },
+    "medical_maintenance": {
+      "critical_equipment_availability": {
+        "target": 98,
+        "unit": "percentage",
+        "measurement_period": "monthly",
+        "cbahi_standard": "FMS.10"
+      },
+      "critical_ppm_completion": {
+        "target": 100,
+        "unit": "percentage",
+        "measurement_period": "monthly",
+        "cbahi_standard": "FMS.10.3"
+      },
+      "average_downtime": {
+        "target": 24,
+        "unit": "hours",
+        "measurement_period": "per_incident",
+        "cbahi_standard": "FMS.10.4"
+      },
+      "equipment_inventory_accuracy": {
+        "target": 100,
+        "unit": "percentage",
+        "measurement_period": "quarterly",
+        "cbahi_standard": "FMS.10.2"
+      }
+    },
+    "support_services": {
+      "housing_satisfaction": {
+        "target": 85,
+        "unit": "percentage",
+        "measurement_period": "quarterly",
+        "cbahi_standard": "General"
+      },
+      "transportation_reliability": {
+        "target": 95,
+        "unit": "percentage",
+        "measurement_period": "monthly",
+        "cbahi_standard": "General"
+      },
+      "housing_cm_response": {
+        "target": 48,
+        "unit": "hours",
+        "measurement_period": "per_incident",
+        "cbahi_standard": "General"
+      }
+    },
+    "performance_rating": {
+      "excellent": {
+        "threshold": 100,
+        "color": "green",
+        "symbol": "🟢"
+      },
+      "good": {
+        "threshold": 95,
+        "color": "green",
+        "symbol": "🟢"
+      },
+      "acceptable": {
+        "threshold": 85,
+        "color": "yellow",
+        "symbol": "🟡"
+      },
+      "poor": {
+        "threshold": 0,
+        "color": "red",
+        "symbol": "🔴"
+      }
+    }
+  }
+}

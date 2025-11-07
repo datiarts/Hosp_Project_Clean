@@ -1,0 +1,61 @@
+{
+  "equipment_inventory": {
+    "metadata": {
+      "last_updated": "2025-11-07",
+      "total_equipment": 0,
+      "critical_equipment": 0,
+      "semi_critical": 0,
+      "non_critical": 0
+    },
+    "equipment_list": [
+      {
+        "id": "MED-001",
+        "name": "جهاز التنفس الصناعي",
+        "name_en": "Ventilator",
+        "category": "critical",
+        "manufacturer": "Philips",
+        "model": "V60",
+        "serial_number": "SN123456",
+        "location": "ICU - غرفة 101",
+        "department": "العناية المركزة",
+        "purchase_date": "2020-01-15",
+        "warranty_expiry": "2025-01-15",
+        "last_ppm_date": "2025-10-15",
+        "next_ppm_date": "2025-11-15",
+        "status": "operational",
+        "availability": 100,
+        "notes": ""
+      },
+      {
+        "id": "MED-002",
+        "name": "جهاز مراقبة المريض",
+        "name_en": "Patient Monitor",
+        "category": "critical",
+        "manufacturer": "GE Healthcare",
+        "model": "CARESCAPE B650",
+        "serial_number": "SN789012",
+        "location": "ICU - غرفة 102",
+        "department": "العناية المركزة",
+        "purchase_date": "2021-03-20",
+        "warranty_expiry": "2026-03-20",
+        "last_ppm_date": "2025-10-20",
+        "next_ppm_date": "2025-11-20",
+        "status": "operational",
+        "availability": 100,
+        "notes": ""
+      }
+    ],
+    "status_codes": {
+      "operational": "عامل",
+      "down": "متعطل",
+      "under_maintenance": "قيد الصيانة",
+      "calibration": "معايرة",
+      "retired": "متقاعد"
+    },
+    "category_codes": {
+      "critical": "حرج",
+      "semi_critical": "شبه حرج",
+      "non_critical": "غير حرج"
+    }
+  }
+}
