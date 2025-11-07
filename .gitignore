@@ -1,0 +1,49 @@
+# البيانات الحساسة / Sensitive Data
+06_Data/*.db
+06_Data/*.sqlite
+06_Data/backup/
+*.env
+.env.local
+
+# بيانات شخصية / Personal Information
+**/staff_list.json
+**/personal_data.json
+**/passwords.txt
+
+# ملفات مؤقتة / Temporary Files
+*.tmp
+*.log
+*.bak
+~$*
+
+# مجلدات بيثون / Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# مجلدات Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ملفات IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ملفات النظام / System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# النسخ الاحتياطية / Backups
+*.backup
+backup_*/
